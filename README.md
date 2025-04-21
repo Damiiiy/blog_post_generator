@@ -47,15 +47,15 @@ cd ai-blog-generator-api
 ```
 
 ### 2. Create and Activate a Virtual Environment
-```bash
+
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
-```
+
 
 ### 3. Install Dependencies
-```bash
+
 pip install -r requirements.txt
-```
+
 
 ### 4. Configure Environment Variables
 
@@ -70,16 +70,15 @@ DATABASE_URL=sqlite:///db.sqlite3
 ```
 
 ### 5. Apply Migrations
-```bash
 python manage.py migrate
-```
+
 
 ### 6. Run the Development Server
-```bash
-python manage.py runserver
-```
 
----
+python manage.py runserver
+
+
+
 
 ## 🔌 API Endpoints
 
@@ -94,7 +93,7 @@ python manage.py runserver
 | `/api/usage/`                   | GET    | Track user usage/quota           |
 | `/api/stripe/webhook/`          | POST   | Stripe payment webhook (optional)|
 
----
+
 
 ## ⚙️ Tech Stack
 
@@ -105,7 +104,7 @@ python manage.py runserver
 - **Async Tasks (optional):** Celery + Redis
 - **Database:** PostgreSQL or SQLite (dev)
 
----
+
 
 ## ✅ Example Generation Request
 
@@ -118,17 +117,10 @@ python manage.py runserver
   "length": "Medium",
   "keywords": ["productivity", "remote work", "tips"]
 }
-```
 
----
 
 ## 🧪 Run Tests
-
-```bash
 python manage.py test
-```
-
----
 
 ## 🛠 Development Tips
 
@@ -137,19 +129,19 @@ python manage.py test
 - Create a reusable `services.py` for AI interactions
 - Use pagination for listing posts
 
----
+
 
 ## 📄 License
 
 This project is licensed under the **MIT License**.
 
----
+
 
 ## 🙌 Contributing
 
 Got a cool idea or found a bug? PRs and Issues are welcome!
 
----
+
 
 ## 👨‍💻 Author
 
@@ -162,5 +154,3 @@ Twitter: [@yourhandle](https://x.com/damiiiy1)
 > “Let AI write for you—focus on what really matters.”
 
 ```
-
-Let me know if you want this saved as a file or want help scaffolding the actual app code!
