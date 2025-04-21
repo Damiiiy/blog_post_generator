@@ -1,7 +1,5 @@
 # blog_post_generator
-Absolutely! Here's the **complete, copy-paste-ready `README.md`** for your **AI-Powered Blog Generator API**:
 
----
 
 ```markdown
 # 🧠 AI-Powered Blog Generator API
@@ -20,11 +18,11 @@ A powerful, scalable backend service for generating AI-written blog posts using 
 - 💳 Optional Stripe integration for billing
 - ⚙️ Async processing with Celery (optional)
 
----
+
 
 ## 📁 Project Structure
 
-```
+
 ai_blog_api/
 ├── bloggen/                # Django project config
 │   ├── settings.py
@@ -38,9 +36,7 @@ ai_blog_api/
 ├── requirements.txt
 ├── .env
 └── README.md
-```
 
----
 
 ## 🔧 Setup & Installation
 
