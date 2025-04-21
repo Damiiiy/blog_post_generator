@@ -94,6 +94,7 @@ python manage.py runserver
 | `/api/stripe/webhook/`          | POST   | Stripe payment webhook (optional)|
 
 
+---
 
 ## ⚙️ Tech Stack
 
@@ -104,7 +105,7 @@ python manage.py runserver
 - **Async Tasks (optional):** Celery + Redis
 - **Database:** PostgreSQL or SQLite (dev)
 
-
+---
 
 ## ✅ Example Generation Request
 
@@ -117,10 +118,17 @@ python manage.py runserver
   "length": "Medium",
   "keywords": ["productivity", "remote work", "tips"]
 }
+```
 
+---
 
 ## 🧪 Run Tests
+
+```bash
 python manage.py test
+```
+
+---
 
 ## 🛠 Development Tips
 
@@ -129,28 +137,22 @@ python manage.py test
 - Create a reusable `services.py` for AI interactions
 - Use pagination for listing posts
 
-
+---
 
 ## 📄 License
 
 This project is licensed under the **MIT License**.
 
-
+---
 
 ## 🙌 Contributing
 
 Got a cool idea or found a bug? PRs and Issues are welcome!
 
-
+---
 
 ## 👨‍💻 Author
 
 Built by **Ndifreke Umoh Macauley**  
 GitHub: [github.com/damiiiy](https://github.com/damiiiy)  
-Twitter: [@yourhandle](https://x.com/damiiiy1)
-
----
-
-> “Let AI write for you—focus on what really matters.”
-
-```
+Twitter: [@damiiiy1](https://x.com/damiiiy1)
