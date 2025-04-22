@@ -2,7 +2,7 @@
 
 
 ```markdown
-# 🧠 AI-Powered Blog Generator API
+# AI-Powered Blog Generator API
 
 A powerful, scalable backend service for generating AI-written blog posts using Django Rest Framework and OpenAI's GPT. Users can create and manage blog content by simply entering a topic and desired tone.
 
@@ -10,17 +10,17 @@ A powerful, scalable backend service for generating AI-written blog posts using 
 
 ## Features
 
-- 🔐 JWT Authentication (Register/Login)
-- ✍️ Blog generation using OpenAI GPT
-- 💾 Generation history per user
-- 📁 Export blogs to Markdown, HTML, or PDF
-- 📊 Usage tracking & quota limits
-- 💳 Optional Stripe integration for billing
-- ⚙️ Async processing with Celery (optional)
+- JWT Authentication (Register/Login)
+- Blog generation using OpenAI GPT
+- Generation history per user
+- Export blogs to Markdown, HTML, or PDF
+- Usage tracking & quota limits
+- Optional Stripe integration for billing
+- Async processing with Celery (optional)
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 
 ai_blog_api/
@@ -38,7 +38,7 @@ ai_blog_api/
 └── README.md
 
 
-## 🔧 Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the Repository
 
