@@ -19,7 +19,7 @@ A powerful, scalable backend service for generating AI-written blog posts using 
 - Async processing with Celery (optional)
 
 
-
+```
 ## Project Structure
 
 
@@ -36,7 +36,10 @@ ai_blog_api/
 ├── requirements.txt
 ├── .env
 └── README.md
+```
 
+
+```
 
 ## Setup & Installation
 
@@ -159,3 +162,9 @@ Got a cool idea or found a bug? PRs and Issues are welcome!
 Built by **Ndifreke Umoh Macauley**  
 GitHub: [github.com/damiiiy](https://github.com/damiiiy)  
 Twitter: [@damiiiy1](https://x.com/damiiiy1)
+
+
+
+
+
+
