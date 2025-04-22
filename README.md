@@ -57,15 +57,15 @@ source env/bin/activate  # On Windows: env\Scripts\activate
 ```
 
 ### 3. Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4. Configure Environment Variables
 
 Create a `.env` file in the root directory and add:
 
-```env
+```bash
 DEBUG=True
 SECRET_KEY=your_django_secret_key
 OPENAI_API_KEY=your_openai_api_key
@@ -75,16 +75,17 @@ DATABASE_URL=sqlite:///db.sqlite3
 ```
 
 ### 5. Apply Migrations
+```bash
 python manage.py migrate
-
+```
 
 ### 6. Run the Development Server
-
+```bash
 python manage.py runserver
+```
 
 
-
-
+```
 ## API Endpoints
 
 | Endpoint                         | Method | Description                      |
@@ -97,7 +98,7 @@ python manage.py runserver
 | `/api/posts/{id}/download/`     | GET    | Export blog (HTML, MD, PDF)      |
 | `/api/usage/`                   | GET    | Track user usage/quota           |
 | `/api/stripe/webhook/`          | POST   | Stripe payment webhook (optional)|
-
+```
 
 ---
 
