@@ -48,10 +48,10 @@ cd ai-blog-generator-api
 ```
 
 ### 2. Create and Activate a Virtual Environment
-
+```bash
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
-
+```
 
 ### 3. Install Dependencies
 
