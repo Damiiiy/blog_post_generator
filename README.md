@@ -7,9 +7,9 @@
 A powerful, scalable backend service for generating AI-written blog posts using Django Rest Framework and OpenAI's GPT. Users can create and manage blog content by simply entering a topic and desired tone.
 
 
-```
-## Features
 
+## Features
+```
 - JWT Authentication (Register/Login)
 - Blog generation using OpenAI GPT
 - Generation history per user
@@ -19,10 +19,9 @@ A powerful, scalable backend service for generating AI-written blog posts using 
 - Async processing with Celery (optional)
 ```
 
-```bash
+
 ## Project Structure
-
-
+```bash
 ai_blog_api/
 ├── bloggen/                # Django project config
 │   ├── settings.py
